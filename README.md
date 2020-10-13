@@ -12,7 +12,7 @@ The dataset is from the challenge of [MoNuSAC 2020](https://biomedicalimaging.or
 - tqdm
 - scipy
 
-Citation
+#Citation
 If you think this code can help you, please kindly cite our paper.
 ```
 @inproceedings{liu2020scam,
