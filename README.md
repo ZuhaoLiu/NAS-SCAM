@@ -12,6 +12,12 @@ The dataset is from the challenge of [MoNuSAC 2020](https://biomedicalimaging.or
 - tqdm
 - scipy
 
+# How to run
+Firstly, download dataset provided. Then, changing the default dataset path in function "get_args" in train.py, or adding parameter in comment line like below
+```
+python train.py -d '/home/username/final_dataset (add your path here)'
+```
+
 # Citation
 If you think this code can help you, please kindly cite our paper.
 ```
