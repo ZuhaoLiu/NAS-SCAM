@@ -1,7 +1,8 @@
 # NAS-SCAM
-This is the code assoiciated with MICCAI 2020 paper titled "NAS-SCAM: Neural Architecture Search-Based Spatial and Channel Joint Attention Module for Nuclei Semantic Segmentation and Classification".
+<!-- This is the code assoiciated with MICCAI 2020 paper titled "NAS-SCAM: Neural Architecture Search-Based Spatial and Channel Joint Attention Module for Nuclei Semantic Segmentation and Classification". -->
 In the code, we presents attention module architecture searching for nuclei semantic segmentation and classification. Which has two features: 1) the architecture of attention module can be automated search by NAS, 2) different architectures of attention modules can be searched in the same network.
-The dataset is from the challenge of [MoNuSAC 2020](https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-26.htm). We make the preprocessed dataset available in [Google Drive](https://drive.google.com/file/d/1WaZ0Dwzd4_tKoahoMcrEFULOp3H3UJup/view?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1ZSxNJSsNiyuPN76JfgZvnA) (extract code: lj4p). Simply changing the dir in train_functions.py can make the program properly run. We make the following preprocessing: 1) color normalization, 2) [overlap cropping](https://github.com/ZuhaoLiu/overlap-crop-and-recover-image). A detailed description of our dataset will be provided soon.
+The dataset is from the challenge of [MoNuSAC 2020](https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-26.htm). We make the preprocessed dataset available in [Google Drive](https://drive.google.com/file/d/1WaZ0Dwzd4_tKoahoMcrEFULOp3H3UJup/view?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1ZSxNJSsNiyuPN76JfgZvnA) (extract code: lj4p). Simply changing the dir in train_functions.py can make the program properly run. We make the following preprocessing: 1) color normalization, 2) [overlap cropping](https://github.com/ZuhaoLiu/overlap-crop-and-recover-image). 
+<!-- A detailed description of our dataset will be provided soon. -->
 
 # Requirements
 - pytorch
@@ -18,7 +19,7 @@ Firstly, download dataset provided. Then, changing the default dataset path in f
 python train.py -d '/home/username/final_dataset (add your path here)'
 ```
 
-# Citation
+<!-- # Citation
 If you think this code can help you, please kindly cite our paper.
 ```
 @inproceedings{liu2020scam,
@@ -29,4 +30,4 @@ If you think this code can help you, please kindly cite our paper.
   year={2020},
   organization={Springer}
 }
-```
+``` -->
